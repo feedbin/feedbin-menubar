@@ -8,8 +8,15 @@ class AppDelegate
     @statusItem.alternateImage = NSImage.imageNamed("icon-highlight.png")
   end
   
-  def updateStatusItemTitle(title)
-    @statusItem.title = title
+  
+  def updateCount(count)
+    if count == 0
+      @statusItem.title = "0"
+    elsif count >= 1_000
+      @statusItem.title = "1,000+"
+    else
+      @statusItem.title = count.to_s
+    end
   end
   
 end
