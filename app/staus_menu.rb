@@ -39,9 +39,8 @@ class AppDelegate
     @password_label.editable = false
     @password_label.selectable = false
     @preferencesWindow.contentView.addSubview(@password_label)
-
     
-    @password = NSTextField.alloc.initWithFrame(NSMakeRect(120, 282, 200, 22))
+    @password = NSSecureTextField.alloc.initWithFrame(NSMakeRect(120, 282, 200, 22))
     @password.stringValue = ''
     @preferencesWindow.contentView.addSubview(@password)
     
