@@ -36,3 +36,4 @@ To do
  - Authorization error handling
  - Application Icon
  - Retina menubar icon
+ - Push updates
