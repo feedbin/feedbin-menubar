@@ -19,6 +19,8 @@ export FEEDBIN_USER='ben@benubois.com'
 export FEEDBIN_PASSWORD='password'
 ```
 
+**Please note** because of this it is unsafe to distribute the compiled binary since it will include your password.
+
 Once all that is sorted out you should be able to run:
 
 ```bash
