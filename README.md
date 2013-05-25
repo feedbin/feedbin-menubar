@@ -3,6 +3,8 @@ Feedbin Notifier
 
 A menu bar application that shows your Feedbin unread count. Currently checks every 2 minutes.
 
+![Feedbin Notifier](https://dl.dropboxusercontent.com/u/16657547/feedbin_notifier.png)
+
 Installation
 ------------
 
